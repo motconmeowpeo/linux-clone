@@ -5,4 +5,5 @@ export const ROUTE_PATH = {
   Files: "/desktop/files",
   Terminal: "/desktop/terminal",
   Browser: "/desktop/browser",
+  Applications: "/desktop/applications",
 };

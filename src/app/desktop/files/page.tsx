@@ -1,9 +1,9 @@
-import FileExplorer from "@/components/file-explorer/FileExplorer";
+import FileManagerUI from "@/components/file-explorer/FileManager";
 
 export default function LoadingPage() {
   return (
     <main>
-      <FileExplorer />
+      <FileManagerUI />
     </main>
   );
 }

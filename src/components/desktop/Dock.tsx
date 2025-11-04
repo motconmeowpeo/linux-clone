@@ -42,12 +42,14 @@ const Dock = () => {
       <div className="flex-grow"></div>
 
       {/* 4. Show Applications Button */}
-      <div
-        className="w-10 h-10 flex items-center justify-center rounded-full bg-[#3C3C3C] text-white text-xl hover:bg-gray-500 cursor-pointer"
-        title="Show Applications"
-      >
-        <FaTh />
-      </div>
+      <Link href={ROUTE_PATH.Applications}>
+        <div
+          className="w-10 h-10 flex items-center justify-center rounded-full bg-[#3C3C3C] text-white text-xl hover:bg-gray-500 cursor-pointer"
+          title="Show Applications"
+        >
+          <FaTh />
+        </div>
+      </Link>
     </div>
   );
 };
